@@ -12,3 +12,12 @@ function findGift(gifts, giftName, index = 0) {
 
     return findGift(gifts, giftName, index + 1);
 }
+
+let giftToFind = "Reloj";
+console.log(findGift(gifts, giftToFind));
+
+giftToFind = "Televisión";
+console.log(findGift(gifts, giftToFind));
+
+giftToFind = "Libro";
+console.log(findGift(gifts, giftToFind));
