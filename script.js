@@ -9,3 +9,6 @@ function findGift(gifts, giftName, index = 0) {
      if (gifts[index] === giftName) {
         return "El regalo está en la posición: " + index;
     }
+
+    return findGift(gifts, giftName, index + 1);
+}
